@@ -1,0 +1,34 @@
+drugs=[
+    {
+        "id":1,
+        "stock":20,
+        "imageUrl":"imageUrl1",
+        "name":"paracetamol",
+        "price":10000,
+        "prescription":1
+    },
+    {
+        "id":2,
+        "stock":30,
+        "imageUrl":"imageUrl2",
+        "name":"Vick Vaporub",
+        "price":4300,
+        "prescription":0
+    },
+    {
+        "id":3,
+        "stock":20,
+        "imageUrl":"imageUrl3",
+        "name":"Dolex",
+        "price":12000,
+        "prescription":0   
+    },
+    {
+        "id":4,
+        "stock":10,
+        "imageUrl":"imageUrl4",
+        "name":"Albendazol",
+        "price":10000,
+        "prescription":0  
+    }
+]
