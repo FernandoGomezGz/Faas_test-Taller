@@ -9,12 +9,7 @@ FindByPrescription: La función hace una busqueda entre los fármacos, mostrando
 se identifica con un 1 y si no tiene se identifica con un 0.
 
 AggItem: La función agrega un producto al stock de los medicamentos disponibles. La función requiere los siguientes parametros para completar la solicitud de adición:
-  <id>
-  <stock>
-  <imageUrl>
-  <name>
-  <price>
-  <prescription>
+id, stock, imageUrl, name, price  y prescription
   
 Delet: La función borra un producto que esté disponible o existente en el inventario de medicamentos, esta hace una búsqueda con el parámetro <id> que es pedido al usuario.
 
