@@ -1,8 +1,6 @@
                                                           Taller de Function as a Service
 
-Integrantes: Armando Tapia Meza
-             Fernando Gomez Gonzalez
-             Edgar Piña Cuentas
+Integrantes: Armando Tapia Meza, Fernando Gomez Gonzalez y Edgar Piña Cuentas
              
 
 Funciones Integradas en el programa
