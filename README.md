@@ -11,10 +11,12 @@ se identifica con un 1 y si no tiene se identifica con un 0.
 AggItem: La función agrega un producto al stock de los medicamentos disponibles. La función requiere los siguientes parametros para completar la solicitud de adición:
 id, stock, imageUrl, name, price  y prescription
   
-Delet: La función borra un producto que esté disponible o existente en el inventario de medicamentos, esta hace una búsqueda con el parámetro <id> que es pedido al usuario.
+Delete: La función borra un producto que esté disponible o existente en el inventario de medicamentos, esta hace una búsqueda con el parámetro <id> que es pedido al usuario.
 
 
 
 https://faastaller.azurewebsites.net/findbyprescription?prescription=0
+
 https://faastaller.azurewebsites.net/aggitem?id=1002&stock=1000&imageUrl=1212&name=cocalcoal&price=3000&prescription=1
+
 https://faastaller.azurewebsites.net/delete?id=1
