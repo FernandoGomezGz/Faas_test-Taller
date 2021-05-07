@@ -1,13 +1,11 @@
-
-
 import azure.functions as func
 from drugs import drugs
 import json
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
+
     
-    ver=req.params.get('id')
     np = {
         "id":int(req.params.get('id')),
         "stock":int(req.params.get('stock')),
@@ -17,15 +15,15 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         "prescription":int(req.params.get('prescription'))
     }
     
-    if not ver:
+    if not np:
         try:
             req_body = req.get_json()
         except ValueError:
             pass
         else:
-            ver = req_body.get('id')
+            np['id'] = req_body.get('id')
 
-    if ver:
+    if np:
         idf = False
         for i in drugs:
             if i["id"] == np["id"]:

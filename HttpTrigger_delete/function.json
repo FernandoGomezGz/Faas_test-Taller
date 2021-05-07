@@ -5,8 +5,8 @@
       "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
-      "name": "findByprescription",
-      "route": "findByPrescription",
+      "name": "delete",
+      "route": "delete",
       "methods": [
         "get",
         "post"
